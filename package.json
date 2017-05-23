@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-restify-mysql",
+  "version": "1.0.0",
+  "description": "Nodejs Restify & mysql Boilerplate.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node_modules/.bin/tsc",
+    "start": "concurrently \"npm run compile\" \"node build/app.js\""
+  },
+  "author": "Md Hamiduzzaman",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mysql": "0.0.33",
+    "@types/restify": "^4.3.2",
+    "mysql": "^2.13.0",
+    "restify": "^4.3.0"
+  },
+  "devDependencies": {
+    "concurrently": "^3.4.0",
+    "typescript": "^2.3.3"
+  }
+}
